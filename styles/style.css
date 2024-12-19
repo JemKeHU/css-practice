@@ -1,0 +1,195 @@
+html,
+body {
+    margin: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Full header */
+.full-header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    margin-bottom: 60px;
+}
+
+/* Header start */
+.header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+/* Header insides */
+.header .header-h1 {
+    color: whitesmoke;
+}
+
+.header .inner-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 16px;
+}
+
+.header .inner-list .inner-a {
+    color: lightgray;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Header ends */
+
+/* Full Header Two start */
+.full-header2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+
+/* Header two start */
+.header2 {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.header2 .header2-h1 {
+    font-size: 48px;
+    color: whitesmoke;
+    margin-bottom: 2px;
+}
+
+.header2 .header2-p {
+    margin-top: 2px;
+    font-size: 20px;
+    color: lightgray;
+}
+
+.header2 .header2-button {
+    border: none;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: #3b82f6;
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Header two end */
+/* END OF HEADERS */
+/* BODIES STARTS!!! */
+.full-body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-one {
+    margin-bottom: 70px;
+}
+
+/* Boxes inside of body */
+
+.boxes {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.body-one .boxes .box {
+    background-color: white;
+    border: #3b82f6 solid;
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+}
+
+.boxes .exact {
+    width: 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Boxes ends */
+
+.body-h1 {
+    text-align: center;
+    margin-bottom: 48px;
+}
+/* Body one ends */
+
+/* Body two start */
+.body-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    background-color: #e5e7eb;
+    flex-direction: column;
+}
+
+.body-two .two-box {
+    font-size: 32px;
+    padding: 70px;
+    font-style: italic;
+    font-weight: 50;
+}
+
+/* Body two ends */
+
+/* Body three start */
+
+.body-three {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.inner-body-box {
+    background-color: #3b82f6;
+    margin: 50px;
+    padding-bottom: 10px;
+}
+
+.inner-body-box h3 {
+    margin-bottom: 0;
+}
+
+.inner-body-box .h3-p {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-body-box .h3-p button {
+    border: white 2px solid;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: #3b82f6;
+    width: 150px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* Body three ends */
+
+/* Footer */
+
+.footer {
+    background-color: #1f2937;
+    padding: 60px;
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
